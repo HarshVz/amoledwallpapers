@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amoledwallpapers/static/css/main.e34599cd.css",
+    "main.js": "/amoledwallpapers/static/js/main.a73a1f65.js",
+    "static/js/453.c400fb30.chunk.js": "/amoledwallpapers/static/js/453.c400fb30.chunk.js",
+    "static/media/logo.svg": "/amoledwallpapers/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/amoledwallpapers/index.html",
+    "main.e34599cd.css.map": "/amoledwallpapers/static/css/main.e34599cd.css.map",
+    "main.a73a1f65.js.map": "/amoledwallpapers/static/js/main.a73a1f65.js.map",
+    "453.c400fb30.chunk.js.map": "/amoledwallpapers/static/js/453.c400fb30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e34599cd.css",
+    "static/js/main.a73a1f65.js"
+  ]
+}
