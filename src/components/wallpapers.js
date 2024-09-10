@@ -35,7 +35,7 @@ function Wallpapers() {
             let newPosts = jsonData.data.children;
             setAfter(jsonData.data.after)
             setBefore(jsonData.data.before)
-            console.log(url)
+            //console.log(url)
             setPosts(newPosts)
             scrollToTop();
         } catch (error) {
@@ -71,7 +71,7 @@ function Wallpapers() {
         
         const getUrl = (imgUrl) => {
             const cleanedUrl = imgUrl.replace(/amp;/g, ''); // Replaces all occurrences of 'amp;'
-            console.log(cleanedUrl);
+            //console.log(cleanedUrl);
             return cleanedUrl; // Return the modified URL if needed
           };
         // console.log(previewImages[0].source.url)
