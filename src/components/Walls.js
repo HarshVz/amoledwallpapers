@@ -27,7 +27,7 @@ function Walls() {
             let nextPage = jsonData.data.after;
             url = `https://www.reddit.com/r/Amoledbackgrounds/new.json?after=${nextPage}`
             let newPosts = jsonData.data.children;
-            console.log(url)
+            //console.log(url)
             setPosts(newPosts)
     
         } catch (error) {
