@@ -1,0 +1,8 @@
+.loader{
+    height: 120vh;
+    width: 100%;
+    overflow:hidden;
+    background-color: black;
+    z-index: 99;
+    margin-top: -50px;
+}
