@@ -69,7 +69,7 @@ function Imgwall(props) {
           <div className="grid grid-cols-8 gap-4 bg-slate-950 p-4 fixed w-full bottom-0 lg:hidden">
             <a className="flex min-h-[60px] items-center justify-start px-5 rounded-full bg-slate-800 capitalize text-white col-span-6" disabled> {title} </a>
             <a className="flex min-h-[60px] items-center justify-center rounded-full bg-slate-800 capitalize text-white transition duration-500 ease-in-out hover:scale-95 col-span-2 hover:bg-[#9eff29] hover:text-black"
-            href={downloadLink} id="downloadImage" onClick={handleDownload}> <i class="text-2xl ri-arrow-down-circle-line hover:scale-110 hover:rotate-90 duration-1000"></i> </a>
+            href={downloadLink} id="downloadImage" onClick={handleDownload}> <i class="text-2xl ri-arrow-down-circle-line transition hover:text-black hover:scale-110 hover:rotate-90 duration-1000"></i> </a>
         </div>
 
 
