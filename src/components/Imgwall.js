@@ -56,7 +56,7 @@ function Imgwall(props) {
       {showPopup && (
         <div
           id="img-container"
-          className="popup-menu fixed w-96 h-full z-10 m-auto inset-x-0 left-0 right-0 flex flex-col justify-center items-center px-8 pt-5 min-h-[50px] pb-4 bg-gray-950 min-w-full top-0 h-full"
+          className="popup-menu fixed w-100 h-full z-10 m-auto inset-x-0 left-0 right-0 flex flex-col justify-center items-center min-h-[50px] bg-gray-950 min-w-full top-0 h-full sm:p-0 lg:p-5"
         >
           <div
             id="closeContactForm"
@@ -66,11 +66,15 @@ function Imgwall(props) {
             <i className="text-3xl text-slate-300 active:text-slate-100 ri-close-circle-line bg-black rounded-full hover:text-[#9eff29]"></i>
           </div>
 
-          <div className="grid grid-cols-8 gap-4 bg-slate-950 p-4 fixed w-full bottom-0 lg:hidden">
-            <a className="flex min-h-[60px] items-center justify-start px-5 rounded-full bg-slate-800 capitalize text-white col-span-6" disabled> {title} </a>
-            <a className="flex min-h-[60px] items-center justify-center rounded-full bg-slate-800 capitalize text-scale-400 transition ease-in-out hover:scale-95 col-span-2 hover:bg-green-700 hover:text-white duration-500"
+
+          <div className="grid grid-cols-8 gap-4 bg-slate-950 p-5 fixed w-full bottom-0 lg:hidden rounded-full" style={{
+            zIndex: 2
+          }}>
+ <a className="flex min-h-[60px] items-center justify-start px-5 pt-3 pb-3 rounded-full bg-slate-800 text-sm capitalize text-slate-200 col-span-6" disabled> {title} </a>
+            <a className="flex min-h-[60px] items-center justify-center rounded-full bg-slate-800 capitalize text-slate-300 transition ease-in-out hover:scale-95 col-span-2 hover:bg-green-700 hover:text-white duration-500"
             href={downloadLink} id="downloadImage" onClick={handleDownload}> <i class="text-2xl ri-arrow-down-circle-line transition hover:scale-110 hover:rotate-90 duration-500"></i> </a>
         </div>
+        <div className="grid grid-cols-8 gap-4 bg-slate-950 p-8 fixed w-full bottom-0 lg:hidden"></div>
 
 
           <div className="fixed left-5 top-5 hidden lg:block">
